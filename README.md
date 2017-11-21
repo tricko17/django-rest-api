@@ -13,5 +13,7 @@ This is Cool Python Framework i'm using [Django](https://www.djangoproject.com/)
    python -m venv <your-virtual-name>
 2. Install Requirements
    pip install -r requirements.txt
-3. Run Server
+3. Migrate Database
+   python manage.py migrate
+4. Run Server
    python manage.py runserver
