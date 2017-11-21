@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# Django Rest API
 
-You can use the [editor on GitHub](https://github.com/tricko17/django-rest-api/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is Cool Python Framework i'm using [Django](https://www.djangoproject.com/) and [Django Rest Framework](http://www.django-rest-framework.org/) to create REST API
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### There are some things that I've done implemented it, that is:
+1. TDD [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
+2. [JWT](https://en.wikipedia.org/wiki/JSON_Web_Token) I used JWT Library From [getblimp](http://getblimp.github.io/django-rest-framework-jwt/)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### How to run it
 ```markdown
-Syntax highlighted code block
+1. Create virtual environment 
+   python -m venv <your-virtual-name>
+2. Install Requirements
+   pip install -r requirements.txt
+3. Run Server
+   python manage.py runserver
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tricko17/django-rest-api/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
